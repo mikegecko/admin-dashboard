@@ -56,6 +56,21 @@ body{
     border-radius: 1.625rem;
     padding: 0 3.5rem 0 1.5rem;
 }
+.notification-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.mini{
+    text-align: center;
+}
+.mini>p{
+    margin: 0;
+}
 .sidebar-container{
     grid-column: 1 / 2;
     grid-row: 1 / 3;
