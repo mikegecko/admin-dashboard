@@ -1,17 +1,83 @@
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons-outlined.md-18 { font-size: 18px; }
+.material-icons-outlined.md-24 { font-size: 24px; }
+.material-icons-outlined.md-36 { font-size: 36px; }
+.material-icons-outlined.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+.material-icons-outlined.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons-outlined.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+.material-icons-outlined.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons-outlined.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
 body{
     font-family: 'Roboto', sans-serif;
 }
 .grid-container{
     display: grid;
-    grid-template-columns: minmax(200px, 1fr) 3fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: minmax(280px, 1fr) 4fr;
+    grid-template-rows: 150px 1fr;
     width: auto;
     height: 100vh;
+}
+.header-container{
+    background-color: #f8fafc;
+    box-shadow: 0px 5px 8px 0px #cbd5e1;
+    z-index: 10;
 }
 .sidebar-container{
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+    background-color: #64748b;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 32px;
 }
+.sidebar-container>p{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #f8fafc;
+    font-weight: bold;
+}
+.sidebar{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px;
+}
+li>a{
+    text-decoration: none;
+    color: #f8fafc;
+}
+
+li>a:hover{
+    text-decoration: underline;
+    color: #f8fafc;
+}
+
 .content-container{
-    
+    background-color: #e2e8f0;
 }

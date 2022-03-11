@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
     <!-- Link -->
     <link rel="stylesheet" href="styles.css" />
     <script src="scripts.js" defer></script>
@@ -17,27 +20,54 @@
 
 <body>
     <div class="grid-container">
+        <div class="header-container">
+            <span class="material-icons">
+                search
+            </span>
+            <input type="search" name="" id="">
+            <p>Joe Smith</p>
+        </div>
         <div class="sidebar-container">
-            <p>Dashboard</p>
+            <p><span class="material-icons-outlined md-48 md-light">
+                    dashboard
+                </span>Dashboard</p>
             <div class="sidebar">
                 <ul>
-                    <li><a href="http://" class="item1">Home</a></li>
-                    <li><a href="http://" class="item2">Profile</a></li>
-                    <li><a href="http://" class="item3">Messages</a></li>
-                    <li><a href="http://" class="item4">History</a></li>
-                    <li><a href="http://" class="item5">Tasks</a></li>
-                    <li><a href="http://" class="item6">Communities</a></li>
-                    <li><a href="http://" class="item7">Settings</a></li>
-                    <li><a href="http://" class="item8">Support</a></li>
-                    <li><a href="http://" class="item9">Privacy</a></li>
+                    <li><span class="material-icons md-36 md-light">
+                            home
+                        </span><a href="http://" class="item1">Home</a></li>
+                    <li><span class="material-icons-outlined md-36 md-light ">
+                            account_circle
+                        </span><a href="http://" class="item2">Profile</a></li>
+                    <li><span class="material-icons-outlined md-36 md-light">
+                            message
+                        </span><a href="http://" class="item3">Messages</a></li>
+                    <li><span class="material-icons-outlined md-36 md-light">
+                            history
+                        </span><a href="http://" class="item4">History</a></li>
+                    <li><span class="material-icons-outlined md-36 md-light">
+                            assignment
+                        </span><a href="http://" class="item5">Tasks</a></li>
+                    <li><span class="material-icons-outlined md-36 md-light">
+                            groups
+                        </span><a href="http://" class="item6">Communities</a></li>
+
+                </ul>
+                <ul>
+                    <li><span class="material-icons-outlined md-36 md-light">
+                            settings
+                        </span><a href="http://" class="item7">Settings</a></li>
+                    <li><span class="material-icons-outlined md-36 md-light">
+                            contact_support
+                        </span><a href="http://" class="item8">Support</a></li>
+                    <li><span class="material-icons-outlined md-36 md-light">
+                            security
+                        </span><a href="http://" class="item9">Privacy</a></li>
                 </ul>
             </div>
         </div>
-        <div class="header-container">
-            <p>Joe Smith</p>
-        </div>
         <div class="content-container">
-            <p>content</p>
+            <p>Your Projects</p>
         </div>
     </div>
 </body>
