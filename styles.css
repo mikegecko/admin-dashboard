@@ -97,21 +97,27 @@ body{
 }
 
 li{
+    box-sizing: border-box;
     list-style: none;
     font-size: 20px;
     display: flex;
     align-items: center;
     gap: 20px;
     padding: 8px;
+    border: 2px solid transparent;
+}
+li:hover{
+    border: 2px solid #f8fafc;
+    border-radius: 2rem;
 }
 li>a{
     text-decoration: none;
     color: #f8fafc;
+    padding: 8px;
 }
 
 li>a:hover{
-    text-decoration: underline;
-    color: #f8fafc;
+    color: #cbd5e1;
 }
 
 .content-container{
