@@ -252,6 +252,10 @@ li>a:hover {
     grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
 }
 
+.project-container :last-child {
+    margin-bottom: 2rem;
+}
+
 h3 {
     margin: 0;
 }
