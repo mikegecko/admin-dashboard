@@ -297,7 +297,7 @@ h3 {
     flex-direction: column;
     margin-left: 1rem;
     border-radius: 14px;
-    padding: 2rem;
+    padding: 1.5rem;
     background-color: #f8fafc;
     box-shadow: var(--card-shadow);
 }
@@ -309,7 +309,17 @@ h3 {
     color: #6b7280;
     border-bottom: 1px solid #6b7280;
 }
-
+.trending{
+    display: flex;
+    gap: 8px;
+    margin-top: 1rem;
+}
+.announcement>div>img{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: 2px solid #6b7280;
+}
 .announcement :last-child {
     border: none;
     padding-bottom: 0px;
