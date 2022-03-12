@@ -68,7 +68,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
+h4{
+    margin: 0px;
+}
 .grid-container {
     display: grid;
     grid-template-columns: minmax(280px, 1fr) 4fr;
@@ -228,4 +230,42 @@ li>a:hover {
 
 .content-container {
     background-color: #e2e8f0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 3rem 1fr;
+}
+
+.content-container>p {
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.announcement-container {
+    /* display: flex; */
+    margin-right: 2rem;
+}
+
+.announcement {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    border-radius: 14px;
+    padding: 2rem;
+    background-color: #f8fafc;
+    box-shadow: 5px 5px 8px 0px #cbd5e1;
+}
+.announcement>p{
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    color: #6b7280;
+    border-bottom: 1px solid #6b7280;
+}
+.announcement :last-child{
+    border: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
