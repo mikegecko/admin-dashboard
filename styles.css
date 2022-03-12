@@ -90,7 +90,7 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    
+
 }
 
 .search-container {
@@ -309,17 +309,20 @@ h3 {
     color: #6b7280;
     border-bottom: 1px solid #6b7280;
 }
-.trending{
+
+.trending {
     display: flex;
     gap: 8px;
     margin-top: 1rem;
 }
-.announcement>div>img{
+
+.announcement>div>img {
     height: 48px;
     width: 48px;
     border-radius: 50%;
     border: 2px solid #6b7280;
 }
+
 .announcement :last-child {
     border: none;
     padding-bottom: 0px;
