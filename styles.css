@@ -67,6 +67,7 @@
 
 :root {
     --card-shadow: 4px 5px 8px 2px #cbd5e1;
+    --card-border: inset 10px 0px 0px 0px #0f172a;
 }
 
 body {
@@ -263,6 +264,7 @@ h3 {
     display: flex;
     flex-direction: column;
     box-shadow: var(--card-shadow);
+    border-left: 1rem solid #334155;
 }
 
 .item-btn {
