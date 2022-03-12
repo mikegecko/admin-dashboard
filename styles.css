@@ -67,16 +67,17 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-h4{
-    margin: 0px;
-}
-.grid-container {
     display: grid;
     grid-template-columns: minmax(280px, 1fr) 4fr;
     grid-template-rows: minmax(180px, 1fr) 5fr;
     width: auto;
     height: 100vh;
+}
+h4{
+    margin: 0px;
+}
+.grid-container {
+    
 }
 
 .header-container {
